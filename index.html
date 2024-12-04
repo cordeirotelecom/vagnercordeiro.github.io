@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof. Vagner Cordeiro</title>
+    <title>Prof. Vagner Cordeiro - Página Pessoal</title>
     <style>
+        /* Estilos Globais */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
+            color: #333;
         }
 
         header {
-            background-color: #0078D7;
+            background-color: #005BB5;
             color: white;
             text-align: center;
             padding: 20px;
@@ -24,17 +26,16 @@
         }
 
         nav {
-            background-color: #005BB5;
-            display: flex;
-            justify-content: center;
+            background-color: #0078D7;
             padding: 10px;
+            text-align: center;
         }
 
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
-            font-size: 18px;
+            font-weight: bold;
         }
 
         nav a:hover {
@@ -42,7 +43,7 @@
         }
 
         .content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             background: white;
             padding: 20px;
@@ -54,16 +55,29 @@
             color: #005BB5;
         }
 
-        footer {
-            text-align: center;
-            background: #ddd;
-            padding: 10px;
-            font-size: 0.9em;
+        ul {
+            list-style: none;
+            padding: 0;
         }
 
-        footer a {
+        ul li {
+            margin: 5px 0;
+        }
+
+        ul li a {
             color: #0078D7;
             text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -75,24 +89,61 @@
     </header>
 
     <nav>
-        <a href="#ensino">Ensino</a>
-        <a href="#publicacoes">Publicações</a>
-        <a href="#pessoal">Pessoal</a>
+        <a href="#disciplinas">Disciplinas</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#competencias">Competências</a>
     </nav>
 
-    <div class="content" id="ensino">
-        <h2>Ensino</h2>
-        <p>Material didático: Notas de aula, apresentações, programas etc.</p>
+    <div class="content" id="disciplinas">
+        <h2>Disciplinas Ministradas</h2>
+        <ul>
+            <li>Segurança Cibernética</li>
+            <li>Introdução à Segurança da Informação</li>
+            <li>Programação Web com HTML, CSS e Javascript</li>
+            <li>Fundamentos de Redes de Computadores</li>
+            <li>Sistemas Operacionais</li>
+            <li>Sistemas Distribuídos e Computação Paralela</li>
+            <li>Aplicação de Cloud, IoT e Indústria 4.0 em Python</li>
+            <li>Tópicos de BigData em Python</li>
+            <li>Gestão de Serviços em TI</li>
+            <li>Gestão de Infraestrutura de Datacenter</li>
+        </ul>
     </div>
 
-    <div class="content" id="publicacoes">
-        <h2>Publicações</h2>
-        <p>Teses, trabalhos e artigos publicados.</p>
+    <div class="content" id="experiencia">
+        <h2>Experiência Acadêmica</h2>
+        <p><strong>Graduação:</strong> Professor nos cursos de Sistemas de Informação, Ciências da Computação e Análise e Desenvolvimento de Sistemas na Estácio (Florianópolis e São José).</p>
+        <ul>
+            <li>Coordenação do Laboratório de Transformação Digital (LTD) - Ferramentas Computacionais para Geração de Emprego - 2024</li>
+            <li>Membro do Núcleo Docente Estruturante (NDE), responsável pelo Projeto Pedagógico - 2023-2024</li>
+            <li>Integrante do Comitê Científico do IV SEPESQI – Estácio Florianópolis - 2023</li>
+        </ul>
+        <p><strong>Pós-Graduação:</strong> Professor de Ciência de Dados e Big Data Analytics.</p>
+        <ul>
+            <li>Disciplina ministrada: Python</li>
+        </ul>
+        <p><strong>Palestrante:</strong></p>
+        <ul>
+            <li>Segurança Cibernética para Idosos - 2022</li>
+            <li>Ferramentas Computacionais para Transformação Digital - 2024</li>
+            <li>Inclusão Digital para Crianças - 2024</li>
+        </ul>
     </div>
 
-    <div class="content" id="pessoal">
-        <h2>Pessoal</h2>
-        <p>Informações sobre softwares desenvolvidos por mim, de contato etc.</p>
+    <div class="content" id="competencias">
+        <h2>Competências</h2>
+        <ul>
+            <li>Apache Spark</li>
+            <li>Educação</li>
+            <li>Dashboards</li>
+            <li>Inteligência de Dados</li>
+            <li>Análise de Sistemas</li>
+            <li>Transformação Digital</li>
+            <li>Ensino Superior</li>
+            <li>Gestão de Projetos</li>
+            <li>Cibersegurança</li>
+            <li>Ciência de Dados</li>
+        </ul>
     </div>
 
     <footer>
@@ -101,3 +152,4 @@
 
 </body>
 </html>
+
